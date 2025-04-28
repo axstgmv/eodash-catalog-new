@@ -1,0 +1,59 @@
+{
+  "Name": "JRC",
+  "Title": "JRC",
+  "EodashIdentifier": "JRC",
+  "Description": "https://storage.googleapis.com/test_stac/exp_desc.md",
+  "Themes": [
+    "railways",
+    "floods",
+    "Europe"
+  ],
+  "Tags": [
+    "original",
+    "whole reagion"
+  ],
+  "Colorlegend": {
+    "title": "Legend",
+    "range": [
+      "#bd0026",
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#bd0026"
+    ],
+    "domain": [
+      "No risk",
+      "Very low",
+      "Low risk",
+      "Moderate risk",
+      "High risk",
+      "Very high risk"
+    ],
+    "scaletype": "categorical",
+    "marktype": "rect"
+  },
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://storage.googleapis.com/test_stac/raster_style_corr.json",
+      "Bbox": [
+        1.5720274896996909,
+        35.203202253152625,
+        23.579431572405973,
+        47.38290970114262
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2019",
+          "Assets": [
+            {
+              "Identifier": "Europe_RP10_filled_depth",
+              "File": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP100_filled_depth_reclassified_reprojected.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

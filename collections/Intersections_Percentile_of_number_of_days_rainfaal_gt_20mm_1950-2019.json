@@ -1,0 +1,42 @@
+{
+  "Name": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "Title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "EodashIdentifier": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "Description": "https://storage.googleapis.com/test_stac/exp_desc.md",
+  "Themes": [
+    "roads",
+    "floods"
+  ],
+  "Tags": [
+    "vector",
+    "feature",
+    "geojson"
+  ],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://storage.googleapis.com/test_stac/vector_style.json",
+      "Bbox": [
+        1.5720274896996909,
+        35.203202253152625,
+        23.579431572405973,
+        47.38290970114262
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2019",
+          "Assets": [
+            {
+              "Identifier": "ExtremePrecipitationRisk_no_days_gt_20mm_95th_1950-2019_classes_Railways_Buf100m_Italy",
+              "File": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_no_days_gt_20mm_95th_1950-2019_classes_Railways_Buf100m_Italy.geojson"
+            },
+            {
+              "Identifier": "ExtremePrecipitationRisk_no_days_gt_20mm_99th_1950-2019_classes_Railways_Buf100m_Italy",
+              "File": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_no_days_gt_20mm_99th_1950-2019_classes_Railways_Buf100m_Italy.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

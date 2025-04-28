@@ -1,9 +1,11 @@
 id: "template_catalog"
 title: "Template Catalog"
 description: "This catalog definition is part of the eodash catalog template, please update to fit your needs"
-endpoint: "https://organization.github.io/repository/repository/"
+endpoint: "https://axstgmv.github.io/eodash-catalog-new/template_catalog/"
 default_base_layers: "layers/baselayers"
 default_overlay_layers: "layers/overlays"
-assets_endpoint: "https://raw.githubusercontent.com/organization/assets-repo/main/"
+assets_endpoint: "assets"
 collections:
-  - example_collection
+  - Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019
+  - Intersections_Return_periods_max_daily_rainfall_1950-2019_classess
+  - JRC

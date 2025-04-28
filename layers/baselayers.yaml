@@ -5,3 +5,11 @@
   attribution: '{ EOxCloudless 2023: <a xmlns:dct="http://purl.org/dc/terms/" href="//s2maps.eu" target="_blank" property="dct:title">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc="http://creativecommons.org/ns#" href="//eox.at" target="_blank" property="cc:attributionName" rel="cc:attributionURL">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2023) }'
   maxNativeZoom: 17
   protocol: 'xyz'
+  visible: false
+- id: osm
+  name: OpenStreemMap
+  url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+  media_type: image/png
+  maxNativeZoom: 17
+  protocol: 'xyz'
+  visible: true

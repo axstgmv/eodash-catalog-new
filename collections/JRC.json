@@ -13,9 +13,8 @@
     "whole reagion"
   ],
   "Colorlegend": {
-    "title": "Legend",
+    "title": "Risk legend",
     "range": [
-      "#bd0026",
       "#ffffb2",
       "#fecc5c",
       "#fd8d3c",
@@ -23,15 +22,13 @@
       "#bd0026"
     ],
     "domain": [
-      "No risk",
       "Very low",
       "Low risk",
       "Moderate risk",
       "High risk",
       "Very high risk"
     ],
-    "scaletype": "categorical",
-    "marktype": "rect"
+    "scaletype": "categorical"
   },
   "Resources": [
     {

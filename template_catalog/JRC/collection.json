@@ -81,16 +81,13 @@
   "subcode": "JRC",
   "eox:colorlegend": {
     "domain": [
-      "No risk",
       "Very low",
       "Low risk",
       "Moderate risk",
       "High risk",
       "Very high risk"
     ],
-    "marktype": "rect",
     "range": [
-      "#bd0026",
       "#ffffb2",
       "#fecc5c",
       "#fd8d3c",
@@ -98,7 +95,7 @@
       "#bd0026"
     ],
     "scaletype": "categorical",
-    "title": "Legend"
+    "title": "Risk legend"
   },
   "title": "JRC",
   "extent": {
@@ -133,8 +130,8 @@
       "JRC"
     ],
     "themes": [
-      "floods",
       "railways",
+      "floods",
       "Europe"
     ]
   }

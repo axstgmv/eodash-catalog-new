@@ -12,34 +12,61 @@
     },
     {
       "rel": "child",
-      "href": "./example_collection/collection.json",
+      "href": "./Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019/collection.json",
       "type": "application/json",
-      "title": "Example Collection",
-      "code": "EX1",
-      "id": "example_collection",
+      "title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "code": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "id": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
       "themes": [
-        "example"
+        "roads",
+        "floods"
       ],
-      "subcode": "EX1",
-      "satellite": [
-        "Satellitename"
-      ],
-      "sensor": [
-        "Sensorname"
-      ],
+      "subcode": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
       "tags": [
-        "example tag"
+        "vector",
+        "feature",
+        "geojson"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Intersections_Return_periods_max_daily_rainfall_1950-2019_classess/collection.json",
+      "type": "application/json",
+      "title": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "code": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "id": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "themes": [
+        "roads",
+        "floods"
       ],
-      "agency": [
-        "Example agency"
+      "subcode": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "tags": [
+        "vector",
+        "feature",
+        "geojson"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./JRC/collection.json",
+      "type": "application/json",
+      "title": "JRC",
+      "code": "JRC",
+      "id": "JRC",
+      "themes": [
+        "railways",
+        "floods",
+        "Europe"
       ],
-      "insituSources": [
-        "Other insitu data"
+      "subcode": "JRC",
+      "tags": [
+        "original",
+        "whole reagion"
       ]
     },
     {
       "rel": "self",
-      "href": "https://organization.github.io/repository/repository/catalog.json",
+      "href": "https://axstgmv.github.io/eodash-catalog-new/template_catalog/catalog.json",
       "type": "application/json"
     }
   ],

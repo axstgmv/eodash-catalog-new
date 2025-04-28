@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "stac_version": "1.1.0",
+  "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019/collection.json",
+      "type": "application/json",
+      "title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "endpointtype": "GeoJSON source",
+      "code": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "id": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "themes": [
+        "roads",
+        "floods"
+      ],
+      "tags": [
+        "vector",
+        "feature",
+        "geojson"
+      ],
+      "subcode": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "type": "image/png",
+      "title": "OpenStreemMap",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "osm"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    }
+  ],
+  "themes": [
+    "roads",
+    "floods"
+  ],
+  "tags": [
+    "vector",
+    "feature",
+    "geojson"
+  ],
+  "subcode": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1.5720274896996909,
+          35.203202253152625,
+          23.579431572405973,
+          47.38290970114262
+        ],
+        [
+          1.5720274896996909,
+          35.203202253152625,
+          23.579431572405973,
+          47.38290970114262
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019"
+    ],
+    "themes": [
+      "floods",
+      "roads"
+    ]
+  }
+}

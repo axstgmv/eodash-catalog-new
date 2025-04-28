@@ -1,0 +1,72 @@
+{
+  "type": "Collection",
+  "id": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+  "stac_version": "1.1.0",
+  "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Intersections_Return_periods_max_daily_rainfall_1950-2019_classess/2019/2019-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-01T00:00:00Z",
+      "assets": [
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy.geojson",
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy.geojson"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://storage.googleapis.com/test_stac/vector_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy",
+        "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess"
+    }
+  ],
+  "themes": [
+    "roads",
+    "floods"
+  ],
+  "tags": [
+    "vector",
+    "feature",
+    "geojson"
+  ],
+  "subcode": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+  "endpointtype": "GeoJSON source",
+  "title": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1.5720274896996909,
+          35.203202253152625,
+          23.579431572405973,
+          47.38290970114262
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

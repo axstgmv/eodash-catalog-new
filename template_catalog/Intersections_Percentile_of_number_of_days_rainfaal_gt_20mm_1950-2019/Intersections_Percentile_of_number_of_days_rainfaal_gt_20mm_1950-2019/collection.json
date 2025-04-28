@@ -1,0 +1,72 @@
+{
+  "type": "Collection",
+  "id": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "stac_version": "1.1.0",
+  "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019/2019/2019-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-01T00:00:00Z",
+      "assets": [
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_no_days_gt_20mm_95th_1950-2019_classes_Railways_Buf100m_Italy.geojson",
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_no_days_gt_20mm_99th_1950-2019_classes_Railways_Buf100m_Italy.geojson"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://storage.googleapis.com/test_stac/vector_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "ExtremePrecipitationRisk_no_days_gt_20mm_95th_1950-2019_classes_Railways_Buf100m_Italy",
+        "ExtremePrecipitationRisk_no_days_gt_20mm_99th_1950-2019_classes_Railways_Buf100m_Italy"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019"
+    }
+  ],
+  "themes": [
+    "roads",
+    "floods"
+  ],
+  "tags": [
+    "vector",
+    "feature",
+    "geojson"
+  ],
+  "subcode": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "endpointtype": "GeoJSON source",
+  "title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1.5720274896996909,
+          35.203202253152625,
+          23.579431572405973,
+          47.38290970114262
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

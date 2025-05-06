@@ -52,6 +52,7 @@
       "High risk",
       "Very high risk"
     ],
+    "markType": "rect",
     "range": [
       "#ffffb2",
       "#fecc5c",

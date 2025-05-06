@@ -28,7 +28,8 @@
       "High risk",
       "Very high risk"
     ],
-    "scaleType": "categorical"
+    "scaleType": "categorical",
+    "markType": "rect"
   },
   "Resources": [
     {

@@ -29,7 +29,12 @@
             {
               "Identifier": "ExtremePrecipitationRisk_no_days_gt_20mm_95th_1950-2019_classes_Railways_Buf100m_Italy",
               "File": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_no_days_gt_20mm_95th_1950-2019_classes_Railways_Buf100m_Italy.geojson"
-            },
+            }
+          ]
+        },
+        {
+          "Time": "2019",
+          "Assets": [
             {
               "Identifier": "ExtremePrecipitationRisk_no_days_gt_20mm_99th_1950-2019_classes_Railways_Buf100m_Italy",
               "File": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_no_days_gt_20mm_99th_1950-2019_classes_Railways_Buf100m_Italy.geojson"
